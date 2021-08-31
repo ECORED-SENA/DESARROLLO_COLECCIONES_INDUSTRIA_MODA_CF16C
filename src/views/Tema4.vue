@@ -41,33 +41,6 @@
               img(src='@/assets/curso/tema4/img02.svg')          
                 
       .tarjeta.t4-div1.p-4(titulo="Requisitos para el proceso de confección")
-        h3 Requisitos para terminación
-        .row
-          .col-lg-9
-            ul.lista-ul
-              li 
-                i.fas.fa-angle-right
-                | Los botones deben estar bien pegados.
-              li 
-                i.fas.fa-angle-right
-                | El producto debe estar libre de hilos sobrantes, se sugiere que sea a ras.
-              li 
-                i.fas.fa-angle-right
-                | El planchado debe ser uniforme y no presentar chafados, quemados, según el material se debe elegir el mejor sistema de planchado. 
-              li 
-                i.fas.fa-angle-right
-                | Empaque rotulado: ganchos sin rebabas y bolsas en buen estado.
-              
-          .col-lg-3
-            figure.mb-4
-              img(src='@/assets/curso/tema4/img03.svg')  
-
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p <b>Consulta la GTC 230 2012 guía para las buenas prácticas en la confección de prendas de vestir.</b> Podrás acceder a base de datos del Icontec y consultar diferentes normas que tienen relación con el área de estudio.
-      .tarjeta.t4-div1.p-4(titulo="Requisitos para terminación")      
         h3 Requisitos para el proceso de confección       
         ul.lista-ul
           li 
@@ -107,20 +80,51 @@
             i.fas.fa-angle-right
             | Toda prenda debe presentar buena apariencia. 
 
+        
+      .tarjeta.t4-div1.p-4(titulo="Requisitos para terminación")   
+        h3 Requisitos para terminación
+        .row
+          .col-lg-9
+            ul.lista-ul
+              li 
+                i.fas.fa-angle-right
+                | Los botones deben estar bien pegados.
+              li 
+                i.fas.fa-angle-right
+                | El producto debe estar libre de hilos sobrantes, se sugiere que sea a ras.
+              li 
+                i.fas.fa-angle-right
+                | El planchado debe ser uniforme y no presentar chafados, quemados, según el material se debe elegir el mejor sistema de planchado. 
+              li 
+                i.fas.fa-angle-right
+                | Empaque rotulado: ganchos sin rebabas y bolsas en buen estado.
+              
+          .col-lg-3
+            figure.mb-4
+              img(src='@/assets/curso/tema4/img03.svg')  
+
+        a.anexo.mb-4.mb-lg-0(href="http://biblioteca.sena.edu.co/paginas/bases.html" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p <b>Consulta la GTC 230 2012 guía para las buenas prácticas en la confección de prendas de vestir.</b> Podrás acceder a base de datos del Icontec y consultar diferentes normas que tienen relación con el área de estudio.
+
+        
+
       .tarjeta.t4-div1.p-4(titulo="Defectos en telas")
         h3 Defectos en telas
         p.mb-4 Son todas aquellas anomalías que se presentan durante el proceso de tejeduría y pueden ser causadas por problemas que tenga el material en el transcurso del proceso antes de llegar al telar, o por deficiencias tanto de la máquina como de los operarios se mencionan en el siguiente documento:
         .row
           .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/CF16_C_4_Defectos.docx')" target="_blank")
               .anexo__icono
-                img(src="@/assets/template/icono-pdf.svg")
+                img(src="@/assets/template/icono-doc.svg")
               .anexo__texto
                 p Defectos en telas
           .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/CF16_C_4_Niveles de defectos.docx')" target="_blank")
               .anexo__icono
-                img(src="@/assets/template/icono-pdf.svg")
+                img(src="@/assets/template/icono-doc.svg")
               .anexo__texto
                 p Niveles de defectos
       .tarjeta.t4-div1.p-4(titulo="Herramientas y materiales de trabajo")
@@ -129,9 +133,9 @@
           .col-lg-7
             h3 Herramientas y materiales de trabajo
             p.mb-5 Para realizar una inspección de calidad o reconocer aspectos básicos se ha de usar las siguientes herramientas y conocer vocabulario técnico manejado al área de confección.
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/CF16_C_4_Materiales.docx')" target="_blank")
               .anexo__icono
-                img(src="@/assets/template/icono-pdf.svg")
+                img(src="@/assets/template/icono-doc.svg")
               .anexo__texto
                 p Herramientas y materiales de trabajo
           .col-lg-5

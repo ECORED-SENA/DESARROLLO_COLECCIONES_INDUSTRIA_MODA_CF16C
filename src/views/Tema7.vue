@@ -64,15 +64,15 @@
 
     .row.justify-content-center
       .col-lg-5
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/CF_16_C_7_CASOS_DE_USO_TABLAS_MILITARES.docx')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-xls.svg")
+            img(src="@/assets/template/icono-doc.svg")
           .anexo__texto
             p <b>Aplicación de tablas y casos de uso.</b>
       .col-lg-5
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/CF16_C_7_TABLAS.xlsx')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
+            img(src="@/assets/template/icono-xls.svg")
           .anexo__texto
             p <b>Construcción de fichas técnicas e indicadores.</b>
       
