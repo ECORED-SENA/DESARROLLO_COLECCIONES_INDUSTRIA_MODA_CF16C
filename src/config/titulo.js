@@ -1,2 +1,1 @@
-module.exports =
-  'Control de calidad en procesos de confección'
+module.exports = 'Control de calidad en procesos de confección'

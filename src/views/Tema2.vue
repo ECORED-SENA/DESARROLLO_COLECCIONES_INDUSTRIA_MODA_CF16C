@@ -5,7 +5,7 @@
 
     .titulo-principal
       .titulo-principal__numero
-        span 1
+        span 2
       h1 Control de calidad en confección
 
     figure

@@ -14,12 +14,6 @@ export default {
         titulo: 'Volver al inicio',
       },
       {
-        nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
-        titulo: 'Introducción',
-        desarrolloContenidos: true,
-      },
-      {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
@@ -65,127 +59,31 @@ export default {
         nombreRuta: 'tema7',
         icono: 'far fa-file-alt',
         numero: '7',
-        titulo: 'Componentes',
+        titulo: 'Normas de calidad para materiales e insumos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            numero: '7.1',
+            titulo: 'Ficha técnica',
+            hash: 't_7_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            numero: '7.2',
+            titulo: 'Tabla militar',
+            hash: 't_7_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            numero: '7.3',
+            titulo: 'Formatos de reporte',
+            hash: 't_7_3',
           },
         ],
       },
     ],
     subMenu: [
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -216,134 +114,197 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Arias de Valencia, A. (1978). Qué es control de calidad . Servicio Nacional de Aprendizaje (SENA).   ',
+      link: 'https://hdl.handle.net/11404/5988',
+    },
+    {
+      referencia: 'Crosby P. (1994). La Calidad es libre. Mc Graw Hill. ',
+    },
+    {
+      referencia:
+        'Deming, W. (1989). Calidad, Productividad y Competitividad. Díaz de Santos. ',
+    },
+    {
+      referencia:
+        'Ishikawa K. (1994). Introducción al Control de Calidad. Díaz de Santos.  ',
+    },
+    {
+      referencia:
+        'Juran. J. y Gryna, F. (1993). Manual de Control de Calidad. Mc Graw Hill. ',
+    },
+    {
+      referencia:
+        'Mejía M, M. (1991). Control de calidad total: una manera diferente de orientar la dirección de la empresa . Servicio Nacional de Aprendizaje (SENA).  ',
+      link: 'https://hdl.handle.net/11404/3483',
+    },
+    {
+      referencia: 'Pércovich, M. (2009). Estrategia Kaizen. El Cid Editor.  ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://ebookcentral.proquest.com/lib/senavirtualsp/detail.action?docID=3181913',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Pércovich, M. (2009).  KESS Kaizen + EVA + Seis Sigma. El Cid Editor.  ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://ebookcentral.proquest.com/lib/senavirtualsp/detail.action?docID=3179902',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Pérez, E. (1990). Control de calidad: generalidades. Servicio Nacional de Aprendizaje (SENA).  ',
+      link: 'https://hdl.handle.net/11404/4824',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'SENA. (1973). Programa de control de calidad. Unidad 1.7. Normalización. SENA. ',
+      link: 'https://hdl.handle.net/11404/6667',
+    },
+    {
+      referencia:
+        'SENA. (1973). Programa de control de calidad. Unidad 1.9. Aspecto económico de la calidad. SENA. ',
+      link: 'https://hdl.handle.net/11404/6669',
+    },
+    {
+      referencia: 'SENA. (1990). Control de calidad en hilos y telas. SENA. ',
+      link: 'https://hdl.handle.net/11404/4252',
+    },
+    {
+      referencia:
+        'Lean solutions. (2020).  ¿Qué es Six Sigma?. Lean solutions.  ',
+      link: 'http://leansolutions.co/conceptos-lean/que-es-six-sigma/',
+    },
+    {
+      referencia:
+        'Socconini, L. y Carlo Reato. (2019). Lean Six sigma: sistema de gestión para liderar empresas. Marge Books.  ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://ebookcentral.proquest.com/lib/senavirtualsp/detail.action?docID=5885236',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Alargamiento',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Sinónimo del concepto de amplitud, hace referencia al ensanchamiento, la distensión o el alargamiento de algo.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Cambio dimensional',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Término genérico para los cambios a lo largo y ancho de una muestra o espécimen, Muestra de tela sometida a condiciones específicas, el cambio usualmente se expresa en porcentaje de la dimensión inicial. ',
     },
     {
-      termino: 'Pirognóstico',
-      significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+      termino: 'Camisa formal',
+      significado: 'Camisa diseñada específicamente para usar con corbata.',
     },
     {
-      termino: 'Áectores',
+      termino: 'Camisa informal',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Camisa diseñada para uso diferente a las camisas formales y de trabajo.',
     },
     {
-      termino: 'Moda',
+      termino: 'Defecto',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Es una no conformidad en las características requeridas por el cliente o una norma y que causa incumplimiento de un requisito y por tanto genera insatisfacción en el cliente.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Encogimiento',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Cambio dimensional resultante de la disminución a lo largo a ancho de un espécimen.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Insumos',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Conjunto de materiales utilizados para la confección de prendas.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'ISO',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Organización Internacional de Estandarización, ubicada en Ginebra, Suiza. Promueve y desarrolla normas para estandarizar productos y servicios. ',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Moldería',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de piezas especificadas por talla que conforman un producto o diseño.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Muestra',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Número representativo de prendas del lote de producción, por medio de ella se determina el cumplimiento de los requisitos de calidad de todo el lote de producción.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Muestra física',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Prenda que cumple con los requisitos de calidad, es utilizada como guía para la confección o para las actividades de ventas.',
+    },
+    {
+      termino: 'Patrón',
+      significado:
+        'Formato, plantilla o guía que se usa para cortar distintas. piezas que forman una prenda. El patrón reúne estilo y detalle de la prenda y se obtiene de otro de cartón o papel grueso con las referencias de las medidas corporales.',
+    },
+    {
+      termino: 'Patronaje',
+      significado:
+        'Construcción de un plano o conjunto de planos (piezas) que conforman una prenda que servirá de plantillas para realizar el corte de un diseño establecido su producto es el patrón guía o base.',
+    },
+    {
+      termino: 'Prenda',
+      significado: 'Cada una de las piezas que componen un atuendo de vestir.',
+    },
+    {
+      termino: 'Punto de control crítico',
+      significado:
+        'Operaciones, fases o procesos que requieren de riguroso control debido a que representan alto riesgo de generar defectos y por tanto incumplir con los requisitos. ',
+    },
+    {
+      termino: 'Requisitos',
+      significado:
+        'Explícitos (declarados por el cliente), implícitos (necesarios para que cumplan función), legales o reglamentarios (de acuerdo con cumplir leyes), de empresa (según las políticas de la empresa) que se deben cumplir y adaptar en los procesos realizados.',
+    },
+    {
+      termino: 'Tejer',
+      significado:
+        'Entrelazar hilos o fibras, mecánicamente o a mano, para formar un tejido o hacer un objeto determinado.',
+    },
+    {
+      termino: 'Variables de calidad',
+      significado:
+        'Cuantificación de las cualidades del producto, por ejemplo: carta de colores de la prenda.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Carro, R. y González, D. (2012). Muestreo de aceptación. Facultad de Ciencias Económicas y Sociales. Universidad Nacional de Mar de Plata.',
+      tipo: 'PDF',
+      descarga: '/downloads/13_muestreo_aceptacion.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Duque de Serna, F. (1990). Procedimientos para el control de calidad de la confección. Servicio Nacional de Aprendizaje (SENA).',
+      tipo: 'PDF',
+      descarga: '/downloads/3969_procedimiento_para_el_control_de_calidad.pdf',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'ICONTEC. (2012) GTC 230.  Guía para las buenas prácticas en la confección de prendas de vestir.',
+      tipo: 'Norma',
+      link:
+        'Https://e-collection-icontec-org.bdigital.sena.edu.co/pdfview/viewer.aspx?locale=es-es&q=fe3878a589e70a025e75351f73493f66&req= ',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      texto:
+        'Gutiérrez, E. (2002). Calidad: instrumento capaz de garantizar el éxito en la gestión a largo plazo evolución del significado de calidad. Informador técnico 64. SENA.',
+      tipo: 'PDF/Publicación',
+      descarga: '/downloads/945-Texto del artículo-2940-1-10-20170908.pdf',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto:
+        'Jaramillo, J. (1990). Control de calidad en confección. Servicio Nacional de Aprendizaje SENA.',
+      tipo: 'PDF/Cartilla',
+      descarga: '/downloads/3818_control_de_calidad_en_la_confeccion.pdf',
+    },
+    {
+      texto: 'SENA. (1973). Técnicas de supervisión/Control de calidad. SENA.',
+      tipo: 'PDF',
+      descarga: '/downloads/tecnicas_de_supervision_control_de_calidad_1_9.pdf',
     },
   ],
   creditos: {
