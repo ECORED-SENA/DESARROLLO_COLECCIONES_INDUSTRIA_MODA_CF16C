@@ -38,7 +38,7 @@
               | Costura/confección: fabricación de las prendas de vestir.
             li 
               i.fas.fa-angle-right
-              | Estudio y registro de mejoras de los diferentes procesos del proceso.
+              | Estudio y registro de mejoras de los diferentes procedimientos del proceso.
             li 
               i.fas.fa-angle-right
               | Entrenamiento del personal.

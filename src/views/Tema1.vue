@@ -44,7 +44,7 @@
           figure.t1-figura1
             img(src='@/assets/curso/tema1/img05.svg')             
           div.p-3.px-4.t1_div4 
-            p <b>Kaoru Ishikawa (1988),</b> resalta el control en todos los procesos y las personas de la empresa involucradas para obtener el producto más útil, más económico, y satisfactorio al consumidor final.
+            p <b>Kaoru Ishikawa (1988),</b> resalta el control en todos los procesos y las personas de la empresa involucradas para obtener el producto más útil, más económico y satisfactorio al consumidor final.
 
       .row
         .col-lg-4.d-flex.flex-column(style='position:relative').mb-5

@@ -8,11 +8,11 @@
         span 7
       h1 Documentos para control de calidad
 
-    p.mb-5 Para llevar un control de las actividades de control de calidad los elementos indispensables son los siguientes: 
+    p.mb-5 Para llevar un registro de las actividades de control de calidad, los elementos indispensables son los siguientes: 
 
     .row
       .col-lg-5
-        figure
+        figure.mb-md-5
           img(src='@/assets/curso/tema7/img01.png')  
       .col-lg-7
         #t_7_1.titulo-segundo.mb-3
@@ -20,14 +20,14 @@
 
         .row
           .col-lg-3
-            figure
+            figure.mb-md-5
               div.mb-2.BorTit
                 p.mb-0 <b>Figura 1</b>
                 p.mb-0 Ficha técnica      
               img(src='@/assets/curso/tema7/img02.png') 
             
           .col-lg-7.d-flex.align-items-center
-            p Este documento como se observa en la figura 1, debe ser interpretado en forma correcta según el área que se esté implementando: diseño, patronaje, corte o confección. 
+            p Este documento como se observa en la figura 1, debe ser interpretado en forma correcta según el área que lo esté implementando: diseño, patronaje, corte o confección. 
     
     Separador
 
@@ -58,7 +58,7 @@
               div.mb-2.BorTit
                 p.mb-0 <b>Figura 3</b>
                 p.mb-0 Formato de auditoría en proceso  
-              img(src='@/assets/curso/tema7/img05.png')
+              img(src='@/assets/curso/tema7/img05.svg')
 
     p.mb-5 Para finalizar este tema será importante conocer las bases para la construcción de las tablas y los recursos que se convertirán en herramientas e indicadores de calidad, así mismo es fundamental conocer la forma en que se realiza el análisis de los datos y la utilización de las tablas en aras a determinar la cantidad de prendas a auditar y los parámetros para definir dichas cantidades, a continuación podrá acceder a dos documentos que le servirán de herramientas en la aplicación de estos conocimientos y la construcción de las fichas técnicas y la definición de parámetros de calidad a aplicar en la ejecución de su proyecto.
 

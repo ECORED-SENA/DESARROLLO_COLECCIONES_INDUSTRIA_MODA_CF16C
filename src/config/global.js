@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Control de calidad en procesos de confección',
     descripcionCurso:
-      'Satisfacer las necesidades del cliente es un requerimiento esencial para la construcción o elaboración de cualquier producto, durante el estudio de este tema el aprendiz reconocerá elementos que son importantes para controlar la calidad de confección de prendas de vestir, además de adquirir conocimientos técnicos sobre la elaboración e interpretación de fichas técnicas, insumo primordial para el desarrollo de muestras físicas y unificación de criterios procesos de producción. ',
+      'Satisfacer las necesidades del cliente es un requerimiento esencial para la construcción o elaboración de cualquier producto, durante el estudio de este tema el aprendiz reconocerá elementos que son importantes para controlar la calidad de confección de prendas de vestir, además de adquirir conocimientos técnicos sobre la elaboración e interpretación de fichas técnicas, insumo primordial para el desarrollo de muestras físicas y unificación de criterios de procesos de producción. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -59,7 +59,7 @@ export default {
         nombreRuta: 'tema7',
         icono: 'far fa-file-alt',
         numero: '7',
-        titulo: 'Normas de calidad para materiales e insumos',
+        titulo: 'Documentos de control de calidad',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -130,11 +130,11 @@ export default {
     },
     {
       referencia:
-        'Juran. J. y Gryna, F. (1993). Manual de Control de Calidad. Mc Graw Hill. ',
+        'Juran, J. y Gryna, F. (1993). Manual de Control de Calidad. Mc Graw Hill. ',
     },
     {
       referencia:
-        'Mejía M, M. (1991). Control de calidad total: una manera diferente de orientar la dirección de la empresa . Servicio Nacional de Aprendizaje (SENA).  ',
+        'Mejía M., M. (1991). Control de calidad total: una manera diferente de orientar la dirección de la empresa . Servicio Nacional de Aprendizaje (SENA).  ',
       link: 'https://hdl.handle.net/11404/3483',
     },
     {
@@ -188,7 +188,7 @@ export default {
     {
       termino: 'Cambio dimensional',
       significado:
-        'Término genérico para los cambios a lo largo y ancho de una muestra o espécimen, Muestra de tela sometida a condiciones específicas, el cambio usualmente se expresa en porcentaje de la dimensión inicial. ',
+        'Término genérico para los cambios a lo largo y ancho de una muestra o espécimen. Muestra de tela sometida a condiciones específicas, el cambio usualmente se expresa en porcentaje de la dimensión inicial. ',
     },
     {
       termino: 'Camisa formal',
@@ -207,7 +207,7 @@ export default {
     {
       termino: 'Encogimiento',
       significado:
-        'Cambio dimensional resultante de la disminución a lo largo a ancho de un espécimen.',
+        'Cambio dimensional resultante de la disminución a lo largo y ancho de un espécimen.',
     },
     {
       termino: 'Insumos',
@@ -237,12 +237,12 @@ export default {
     {
       termino: 'Patrón',
       significado:
-        'Formato, plantilla o guía que se usa para cortar distintas. piezas que forman una prenda. El patrón reúne estilo y detalle de la prenda y se obtiene de otro de cartón o papel grueso con las referencias de las medidas corporales.',
+        'Formato, plantilla o guía que se usa para cortar distintas piezas que forman una prenda. El patrón reúne estilo y detalle de la prenda y se obtiene de otro de cartón o papel grueso con las referencias de las medidas corporales.',
     },
     {
       termino: 'Patronaje',
       significado:
-        'Construcción de un plano o conjunto de planos (piezas) que conforman una prenda que servirá de plantillas para realizar el corte de un diseño establecido su producto es el patrón guía o base.',
+        'Construcción de un plano o conjunto de planos (piezas) que conforman una prenda que servirá de plantilla para realizar el corte de un diseño establecido; su producto es el patrón guía o base.',
     },
     {
       termino: 'Prenda',
@@ -320,44 +320,75 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Flor Angela Montoya Rendón',
+        cargo: 'Instructora',
+        centro: 'Centro de Diseño, Confección y Moda - Regional Antioquia',
+      },
+      {
+        nombre: 'María Luisa Yepes Sierra',
+        cargo: 'Instructora',
+        centro: 'Centro de Diseño, Confección y Moda - Regional Antioquia',
+      },
+      {
+        nombre: 'Marisol Osorio Beltrán',
+        cargo: 'Líder Sennova',
+        centro: 'Centro de Diseño, Confección y Moda - Regional Antioquia',
+      },
+      {
+        nombre: 'Jhon Fernando Jaramillo Taborda',
+        cargo: 'Investigador - Grupo de investigación INAMOD',
+        centro: 'Centro de Diseño, Confección y Moda - Regional Antioquia',
+      },
+      {
+        nombre: 'Liliana Victoria Morales Gualdrón',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisión pedagógica y metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        cargo: 'Responsable equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
