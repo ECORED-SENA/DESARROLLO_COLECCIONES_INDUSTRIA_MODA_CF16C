@@ -75,10 +75,7 @@
               tr
                 th Norma
                 th(colspan=3) Ensayo 
-            tbody
-              tr
-                td NTC 2399 2014
-                td(colspan=3) Textiles y confecciones para ropa interior femenina de tejido de punto.    
+            tbody              
               tr
                 td  NTC 1213/AATCC 20
                 td(colspan=3) Análisis cualitativo de fibras.
@@ -116,7 +113,7 @@
                 td  NTC 2291/ASTMD3787
                 td(colspan=3) Determinación de la resistencia al estallido de textiles.
               tr
-                td  NTC 5634: 2008-
+                td  NTC 5634: 2008
                 td(colspan=3) Determinación de la resistencia de las telas al desgarre. 
               tr
                 td  NTC 2293/ASTMD3999
@@ -159,7 +156,7 @@
                 td(colspan=3) Medición de la permeabilidad de los textiles al vapor de agua con fines de control de la calidad.
               tr
                 td  NORMA ISO 17072-1:2011
-                td(colspan=3) Metales extraíbles (Plomo, Cobre, Cadmio, Níquel, Cromo, Cobalto, Hierro, Manganeso, zinc).
+                td(colspan=3) Metales extraíbles (Plomo, Cobre, Cadmio, Níquel, Cromo, Cobalto, Hierro, Manganeso, Zinc).
               tr
                 td  NTC 772: 2017-03-22 AATCC 15:2002
                 td(colspan=3) Método de ensayo para determinar la solidez del color a la transpiración.

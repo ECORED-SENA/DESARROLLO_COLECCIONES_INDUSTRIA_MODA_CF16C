@@ -47,7 +47,7 @@
         h3 Clases de fichas técnicas
         p.mb-4 Para cada producto estandarizado se puede encontrar una ficha técnica, algunas de las más usadas en el área de confección son:
         .tarjeta.tarjeta--azul.p-4.mb-5
-          SlyderA
+          SlyderA.py-4
             .row
               .col-lg-1
               .col-lg-3
@@ -66,15 +66,16 @@
                 div 
                   h4 Ficha técnica de diseño
                   p.mb-5 Es importante anexar dibujo plano, frontal, posterior y lateral con lupas para enfocar detalles del diseño, define materiales e insumos a realizar, definir accesorios y requerimientos a cumplir, además observaciones importantes a tener en cuenta en los siguientes procesos.
+            
             .row
-              .col-lg-1
-              .col-lg-3
-                figure
-                  img(src='@/assets/curso/tema3/img11.png')   
-              .col-lg-8.d-flex.align-items-center
-                div 
-                  h4 Ficha técnica patronaje
-                  p.mb-5 Para este documento se puede agregar esquema en miniatura de cada una de las piezas que conforman la prenda, tolerancias y medidas durante el proceso de costura, después del lavado y terminado el proceso de confección.
+                .col-lg-1
+                .col-lg-3
+                  figure
+                    img(src='@/assets/curso/tema3/img11.png')   
+                .col-lg-8.d-flex.align-items-center
+                  div 
+                    h4 Ficha técnica patronaje
+                    p.mb-5 Para este documento se puede agregar esquema en miniatura de cada una de las piezas que conforman la prenda, tolerancias y medidas durante el proceso de costura, después del lavado y terminado el proceso de confección.              
             .row
               .col-lg-1
               .col-lg-3
@@ -101,7 +102,7 @@
               .col-lg-8.d-flex.align-items-center
                 div 
                   h4 Ficha técnica de producción/confección
-                  P.mb-5 para esta ficha se debe sumar información de las materiales e insumos, diseño, patronaje, y corte, además se definen los procesos operacionales con tiempos de producción facilitando el proceso de preparación, ensamble y acabado.
+                  P.mb-5 Para esta ficha se debe sumar información de los materiales e insumos, diseño, patronaje y corte, además se definen los procesos operacionales con tiempos de producción, facilitando el proceso de preparación, ensamble y acabado.
 
 
       

@@ -59,7 +59,7 @@ export default {
         nombreRuta: 'tema7',
         icono: 'far fa-file-alt',
         numero: '7',
-        titulo: 'Documentos de control de calidad',
+        titulo: 'Documentos para control de calidad',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -377,6 +377,18 @@ export default {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Óscar Julián Márquez Sanabria',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Edgar Mauricio Cortés García',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Andrés Mauricio Santaella Ochoa',

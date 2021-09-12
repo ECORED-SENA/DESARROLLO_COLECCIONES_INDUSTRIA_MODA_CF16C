@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3  
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
@@ -8,17 +8,20 @@
         span 1
       h1 ¿Qué es calidad?
     
-    div.t1_div1.border
+    div.t1_div1.border.hidden-on
       figure.mb-5
-        img(src='@/assets/curso/tema1/img01.png')  
-      
+        img(src='@/assets/curso/tema1/img01.png')              
+
       .row.mb-5
         .col-lg-7.d-flex.align-items-center
-          div.py-3.t1_div2 
-            .row
-              .col-lg-2
+          div.py-3.t1_div2_1.d-none.d-lg-block.mb-lg-4
+            .row.justify-content-center             
               .col-lg-10
                 p.m-0 El concepto de calidad tiene tantas definiciones como autores que han trabajado el tema, sin embargo, es posible la elaboración de elementos claves como: satisfacer necesidades del cliente según sus requerimientos, permanencia en el mercado de la empresa, un producto bien hecho, los cuales se encuentran involucrados en el concepto de calidad.
+          div.py-3.t1_div2_2.d-block.d-lg-none.mb-lg-4
+            .row.justify-content-center            
+              .col-lg-10.ps-5
+                p.m-0 El concepto de calidad tiene tantas definiciones como autores que han trabajado el tema, sin embargo, es posible la elaboración de elementos claves como: satisfacer necesidades del cliente según sus requerimientos, permanencia en el mercado de la empresa, un producto bien hecho, los cuales se encuentran involucrados en el concepto de calidad.                  
         .col-lg-3
           figure.mb-5
             img(src='@/assets/curso/tema1/img02.svg')  

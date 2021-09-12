@@ -25,7 +25,7 @@
         .col-lg-2
         .col-lg-5.p-5
           p.texto-blanco.mb-3 Esta línea es bastante amplia ya que podemos encontrar variedad de productos y diseños, con ello empresas especializadas en pantys, vestidos de baño, ropa deportiva femenina o masculina, ropa interior para caballero, camisetas, entre otras. 
-          p.texto-blanco Las máquinas utilizadas son planas, sobre hiladoras o fileteadoras, resortadora, recubridora, zigzag triple o sencillo entre otras. El tejido utilizado es el tejido de punto con sus diferentes ligamentos fabricados con   fibras naturales, fibras artificiales y sintéticas o en combinación de estos.
+          p.texto-blanco Las máquinas utilizadas son planas, sobrehiladoras o fileteadoras, resortadora, recubridora, zigzag triple o sencillo entre otras. El tejido utilizado es el tejido de punto con sus diferentes ligamentos fabricados con   fibras naturales, fibras artificiales y sintéticas o en combinación de estos.
           figure
             img(src='@/assets/curso/tema5/img03.png') 
     p.mb-5 Reconocer la línea de producción permite aprovechar los recursos técnicos y humanos de la empresa, a la vez que puede ofrecer variedad en diseño y productos al cliente en condiciones óptimas, ya que no tiene los mismos recursos (maquinaria, hilos, agujas, telas) para fabricar un jean, una camisa o un panty.

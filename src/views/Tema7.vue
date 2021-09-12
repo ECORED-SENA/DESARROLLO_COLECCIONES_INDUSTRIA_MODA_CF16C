@@ -12,7 +12,7 @@
 
     .row
       .col-lg-5
-        figure.mb-md-5
+        figure.mb-sm-5.mb-md-5
           img(src='@/assets/curso/tema7/img01.png')  
       .col-lg-7
         #t_7_1.titulo-segundo.mb-3
@@ -20,7 +20,7 @@
 
         .row
           .col-lg-3
-            figure.mb-md-5
+            figure.mb-sm-5.mb-md-5
               div.mb-2.BorTit
                 p.mb-0 <b>Figura 1</b>
                 p.mb-0 Ficha técnica      
