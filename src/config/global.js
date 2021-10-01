@@ -139,14 +139,10 @@ export default {
     },
     {
       referencia: 'Pércovich, M. (2009). Estrategia Kaizen. El Cid Editor.  ',
-      link:
-        'https://ebookcentral.proquest.com/lib/senavirtualsp/detail.action?docID=3181913',
     },
     {
       referencia:
         'Pércovich, M. (2009).  KESS Kaizen + EVA + Seis Sigma. El Cid Editor.  ',
-      link:
-        'https://ebookcentral.proquest.com/lib/senavirtualsp/detail.action?docID=3179902',
     },
     {
       referencia:
@@ -175,8 +171,6 @@ export default {
     {
       referencia:
         'Socconini, L. y Carlo Reato. (2019). Lean Six sigma: sistema de gestión para liderar empresas. Marge Books.  ',
-      link:
-        'https://ebookcentral.proquest.com/lib/senavirtualsp/detail.action?docID=5885236',
     },
   ],
   glosario: [
