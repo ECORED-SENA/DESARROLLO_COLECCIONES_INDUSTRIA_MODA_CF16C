@@ -13,7 +13,7 @@
     #t_7_1.titulo-segundo
       h2 7.1 Ficha técnica
 
-    div.d-sm-none.d-lg-block
+    div.d-none.d-lg-block
       .row.justify-content-center
         .col-lg-5
           p.mb-4 Este documento como se observa en la figura 1, debe ser interpretado en forma correcta según el área que se esté implementando: diseño, patronaje, corte o confección. 
