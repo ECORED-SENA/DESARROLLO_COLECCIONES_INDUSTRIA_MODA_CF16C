@@ -10,24 +10,32 @@
 
     p.mb-5 Para llevar un registro de las actividades de control de calidad, los elementos indispensables son los siguientes: 
 
-    .row
-      .col-lg-5
-        figure.mb-5
-          img(src='@/assets/curso/tema7/img01.png')  
-      .col-lg-7
-        #t_7_1.titulo-segundo.mb-3
-          h2 7.1 Ficha técnica
+    #t_7_1.titulo-segundo
+      h2 7.1 Ficha técnica
 
-        .row
-          .col-lg-3
-            figure.mb-5
-              div.mb-2.BorTit
-                p.mb-0 <b>Figura 1</b>
-                p.mb-0 Ficha técnica      
-              img(src='@/assets/curso/tema7/img02.png') 
-            
-          .col-lg-7.d-flex.align-items-center
-            p Este documento como se observa en la figura 1, debe ser interpretado en forma correcta según el área que lo esté implementando: diseño, patronaje, corte o confección. 
+    div.d-sm-none.d-lg-block
+      .row.justify-content-center
+        .col-lg-5
+          p.mb-4 Este documento como se observa en la figura 1, debe ser interpretado en forma correcta según el área que se esté implementando: diseño, patronaje, corte o confección. 
+          figure
+            img(src='@/assets/curso/tema7/img06.png')  
+        .col-lg-5
+          figure
+            div.mb-2.BorTit
+              p.mb-0 <b>Figura 1</b>
+              p.mb-0 Ficha técnica      
+            img(src='@/assets/curso/tema7/img07.png') 
+
+    div.d-lg-none
+      .row.justify-content-center      
+        .col-lg-10
+          p.mb-4 Este documento como se observa en la figura 1, debe ser interpretado en forma correcta según el área que se esté implementando: diseño, patronaje, corte o confección. 
+          figure
+            div.mb-2.BorTit
+              p.mb-0 <b>Figura 1</b>
+              p.mb-0 Ficha técnica      
+            img(src='@/assets/curso/tema7/img07.png') 
+      
     
     Separador
 
@@ -64,9 +72,9 @@
 
     .row.justify-content-center
       .col-lg-5
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF_16_C_7_CASOS_DE_USO_TABLAS_MILITARES.docx')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Aplicación de tablas y casos de uso.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-doc.svg")
+            img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p <b>Aplicación de tablas y casos de uso.</b>
       .col-lg-5

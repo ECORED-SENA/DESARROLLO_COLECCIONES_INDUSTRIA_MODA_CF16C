@@ -115,15 +115,15 @@
         p.mb-4 Son todas aquellas anomalías que se presentan durante el proceso de tejeduría y pueden ser causadas por problemas que tenga el material en el transcurso del proceso antes de llegar al telar, o por deficiencias tanto de la máquina como de los operarios; se mencionan en el siguiente documento:
         .row
           .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('/downloads/CF16_C_4_Defectos.docx')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/Defectos en telas.pdf')" target="_blank")
               .anexo__icono
-                img(src="@/assets/template/icono-doc.svg")
+                img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
                 p Defectos en telas.
           .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('/downloads/CF16_C_4_Niveles de defectos.docx')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/Niveles de defectos.pdf')" target="_blank")
               .anexo__icono
-                img(src="@/assets/template/icono-doc.svg")
+                img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
                 p Niveles de defectos.
       .tarjeta.t4-div1.p-4(titulo="Herramientas y materiales de trabajo")
@@ -132,9 +132,9 @@
           .col-lg-7
             h3 Herramientas y materiales de trabajo
             p.mb-5 Para realizar una inspección de calidad o reconocer aspectos básicos, se han de usar las siguientes herramientas y conocer vocabulario técnico manejado en el área de confección.
-            a.anexo.mb-4(:href="obtenerLink('/downloads/CF16_C_4_Materiales.docx')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/Herramientas y materiales de trabajo.pdf')" target="_blank")
               .anexo__icono
-                img(src="@/assets/template/icono-doc.svg")
+                img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
                 p Herramientas y materiales de trabajo.
           .col-lg-5
